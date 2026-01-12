@@ -6,13 +6,12 @@ plugins {
 }
 
 android {
-    namespace = "com.mbp16.shsdishwiget"
-    compileSdk = 34
+    namespace = "io.github.mbp16.dishwidget"
+    compileSdk = 36
 
     defaultConfig {
-        applicationId = "com.mbp16.shsdishwiget"
+        applicationId = "io.github.mbp16.dishwidget"
         minSdk = 26
-        targetSdk = 34
         versionCode = 1
         versionName = "1.6.1"
 

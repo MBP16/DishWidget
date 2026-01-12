@@ -27,7 +27,7 @@ jobs:
         if: github.event_name != 'release'
         uses: actions/upload-artifact@v4
         with:
-          name: SHSDishWidget_debug
+          name: DishWidget_debug
           path: app/build/outputs/apk/debug
       - name: Build release APK
         if: github.event_name == 'release'
@@ -51,4 +51,4 @@ jobs:
           repo_token: ${{ secrets.GITHUB_TOKEN }}
           file: app/build/outputs/apk/release/app-release.apk
           tag: ${{ github.ref }}
-          asset_name: SHSDishWidget_$tag.apk
+          asset_name: DishWidget_$tag.apk

@@ -13,5 +13,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "SHSDishWiget"
+rootProject.name = "DishWidget"
 include(":app")

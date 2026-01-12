@@ -1,1 +1,1 @@
-# SHSDishWidget
+# DishWidget

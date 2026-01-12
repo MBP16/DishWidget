@@ -13,13 +13,13 @@
             android:label="@string/app_name"
             android:roundIcon="@mipmap/ic_launcher_round"
             android:supportsRtl="true"
-            android:theme="@style/Theme.SHSDishWiget"
+            android:theme="@style/Theme.DishWidget"
             tools:targetApi="31">
         <activity
-                android:name=".activity.MainActivity"
+                android:name="io.github.mbp16.dishwidget.activity.MainActivity"
                 android:exported="true"
                 android:label="@string/app_name"
-                android:theme="@style/Theme.SHSDishWiget">
+                android:theme="@style/Theme.DishWidget">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
