@@ -12,7 +12,8 @@ android {
     defaultConfig {
         applicationId = "io.github.mbp16.dishwidget"
         minSdk = 26
-        versionCode = 1
+        targetSdk = 36
+        versionCode = 2
         versionName = "1.6.1"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
